@@ -622,6 +622,7 @@ body {
   position: relative;
   z-index: 2;
   padding-top: 5.625rem;
+  padding-bottom: 4.375rem;
   overflow: hidden;
 }
 
@@ -958,6 +959,7 @@ body {
 
 .what__container {
   padding-top: 5.625rem;
+  padding-bottom: 4.375rem;
   position: relative;
 }
 
@@ -1123,6 +1125,7 @@ body {
 
 .market__container {
   padding-top: 5.625rem;
+  padding-bottom: 4.375rem;
 }
 
 .market__header {
@@ -1244,6 +1247,10 @@ body {
   height: 100%;
 }
 
+.benefits__container {
+  padding-bottom: 4.375rem;
+}
+
 .benefits__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1337,6 +1344,10 @@ body {
   line-height: 96%;
 }
 
+.investments__container {
+  padding-bottom: 4.375rem;
+}
+
 .investments__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1386,6 +1397,10 @@ body {
   left: 0;
   width: 100vw;
   border-top: 1px solid #68688D;
+}
+
+.profit__container {
+  padding-bottom: 4.375rem;
 }
 
 .profit__title {
@@ -1719,6 +1734,10 @@ body {
   left: 62%;
 }
 
+.convenience__container {
+  padding-bottom: 4.375rem;
+}
+
 .convenience__title {
   line-height: 95%;
 }
@@ -2016,6 +2035,10 @@ body {
 
 .table-programs__number:not(:last-child) {
   border-bottom: 1px solid rgba(182, 182, 221, 0.3);
+}
+
+.footer__container {
+  padding-bottom: 1.875rem;
 }
 
 .footer__items {
@@ -2458,10 +2481,6 @@ body {
     height: 1.75rem;
   }
 
-  .main-block__container {
-    padding-bottom: 3.75rem;
-  }
-
   .main-block__title {
     font-size: 5.625rem;
   }
@@ -2472,10 +2491,6 @@ body {
 
   .item-main-block__number {
     font-size: 1.875rem;
-  }
-
-  .what__container {
-    padding-bottom: 3.75rem;
   }
 
   .what__text {
@@ -2542,10 +2557,6 @@ body {
     height: 3.3125rem;
   }
 
-  .market__container {
-    padding-bottom: 3.75rem;
-  }
-
   .market__items {
     gap: 1.5rem;
   }
@@ -2582,10 +2593,6 @@ body {
     padding-top: 8.75rem;
   }
 
-  .benefits__container {
-    padding-bottom: 3.75rem;
-  }
-
   .benefits__item:not(:last-child) {
     margin-bottom: 4.1875rem;
   }
@@ -2614,10 +2621,6 @@ body {
     padding-top: 8.75rem;
   }
 
-  .investments__container {
-    padding-bottom: 3.75rem;
-  }
-
   .investments__title:not(:last-child) {
     margin-bottom: 3.1875rem;
   }
@@ -2632,10 +2635,6 @@ body {
 
   .profit__container {
     padding-top: 8.75rem;
-  }
-
-  .profit__container {
-    padding-bottom: 3.75rem;
   }
 
   .profit__title {
@@ -2692,10 +2691,6 @@ body {
 
   .convenience__container {
     padding-top: 8.75rem;
-  }
-
-  .convenience__container {
-    padding-bottom: 3.75rem;
   }
 
   .convenience__title {
@@ -2833,10 +2828,6 @@ body {
     height: 1.125rem;
   }
 
-  .main-block__container {
-    padding-bottom: 2.5rem;
-  }
-
   .main-block__title {
     font-size: 2.5rem;
   }
@@ -2847,10 +2838,6 @@ body {
 
   .item-main-block__number {
     font-size: 1.5625rem;
-  }
-
-  .what__container {
-    padding-bottom: 2.5rem;
   }
 
   .what__text {
@@ -2917,10 +2904,6 @@ body {
     height: 1.5625rem;
   }
 
-  .market__container {
-    padding-bottom: 2.5rem;
-  }
-
   .market__items {
     gap: 0.9375rem;
   }
@@ -2957,10 +2940,6 @@ body {
     padding-top: 5.625rem;
   }
 
-  .benefits__container {
-    padding-bottom: 2.5rem;
-  }
-
   .benefits__item:not(:last-child) {
     margin-bottom: 2.1875rem;
   }
@@ -2989,10 +2968,6 @@ body {
     padding-top: 5.625rem;
   }
 
-  .investments__container {
-    padding-bottom: 2.5rem;
-  }
-
   .investments__title:not(:last-child) {
     margin-bottom: 1.5625rem;
   }
@@ -3007,10 +2982,6 @@ body {
 
   .profit__container {
     padding-top: 5.625rem;
-  }
-
-  .profit__container {
-    padding-bottom: 2.5rem;
   }
 
   .profit__title {
@@ -3067,10 +3038,6 @@ body {
 
   .convenience__container {
     padding-top: 5.625rem;
-  }
-
-  .convenience__container {
-    padding-bottom: 2.5rem;
   }
 
   .convenience__title {
@@ -3308,6 +3275,10 @@ body {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
+  }
+
+  .main-block__header:not(:last-child) {
+    margin-bottom: 5.625rem;
   }
 
   .main-block__items {
@@ -3762,18 +3733,6 @@ body {
     }
 }
 
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .main-block__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .main-block__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
-    }
-}
-
 @supports (font-size: clamp( 2.5rem , 1.3764044944rem  +  5.6179775281vw , 5.625rem )) {
     .main-block__title {
       font-size: clamp( 2.5rem , 1.3764044944rem  +  5.6179775281vw , 5.625rem );
@@ -3807,18 +3766,6 @@ body {
 @supports not (font-size: clamp( 1.5625rem , 1.4501404494rem  +  0.5617977528vw , 1.875rem )) {
     .item-main-block__number {
       font-size: calc(1.5625rem + 0.3125 * (100vw - 20rem) / 55.625);
-    }
-}
-
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .what__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .what__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
     }
 }
 
@@ -4014,18 +3961,6 @@ body {
     }
 }
 
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .market__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .market__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
-    }
-}
-
 @supports (gap: clamp( 0.9375rem , 0.735252809rem  +  1.0112359551vw , 1.5rem )) {
     .market__items {
       gap: clamp( 0.9375rem , 0.735252809rem  +  1.0112359551vw , 1.5rem );
@@ -4134,18 +4069,6 @@ body {
     }
 }
 
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .benefits__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .benefits__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
-    }
-}
-
 @supports (margin-bottom: clamp( 2.1875rem , 1.4683988764rem  +  3.595505618vw , 4.1875rem )) {
     .benefits__item:not(:last-child) {
       margin-bottom: clamp( 2.1875rem , 1.4683988764rem  +  3.595505618vw , 4.1875rem );
@@ -4230,18 +4153,6 @@ body {
     }
 }
 
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .investments__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .investments__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
-    }
-}
-
 @supports (margin-bottom: clamp( 1.5625rem , 0.9782303371rem  +  2.9213483146vw , 3.1875rem )) {
     .investments__title:not(:last-child) {
       margin-bottom: clamp( 1.5625rem , 0.9782303371rem  +  2.9213483146vw , 3.1875rem );
@@ -4287,18 +4198,6 @@ body {
 @supports not (padding-top: clamp( 5.625rem , 4.5014044944rem  +  5.6179775281vw , 8.75rem )) {
     .profit__container {
       padding-top: calc(5.625rem + 3.125 * (100vw - 20rem) / 55.625);
-    }
-}
-
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .profit__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .profit__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
     }
 }
 
@@ -4463,18 +4362,6 @@ body {
 @supports not (padding-top: clamp( 5.625rem , 4.5014044944rem  +  5.6179775281vw , 8.75rem )) {
     .convenience__container {
       padding-top: calc(5.625rem + 3.125 * (100vw - 20rem) / 55.625);
-    }
-}
-
-@supports (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .convenience__container {
-      padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 2.5rem , 2.0505617978rem  +  2.2471910112vw , 3.75rem )) {
-    .convenience__container {
-      padding-bottom: calc(2.5rem + 1.25 * (100vw - 20rem) / 55.625);
     }
 }
 
