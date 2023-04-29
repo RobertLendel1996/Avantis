@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,300,regular,600,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ysabeau:100,200,300,regular,500,600,700,800,900&display=swap);
 
 @charset "UTF-8";
 
@@ -79,7 +79,7 @@ body {
 body {
   color: #B6B6DD;
   line-height: 1;
-  font-family: "Titillium Web";
+  font-family: "Ysabeau";
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -91,7 +91,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Titillium Web";
+  font-family: "Ysabeau";
   font-size: inherit;
 }
 
